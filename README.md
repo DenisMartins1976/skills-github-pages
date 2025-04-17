@@ -1,54 +1,81 @@
-<header>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio Técnico – Denis Martins</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 900px;
+      margin: auto;
+      padding: 40px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1, h2 {
+      color: #005B7F;
+    }
+    .projeto {
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #ddd;
+    }
+    .contato {
+      font-size: 0.95em;
+      margin-top: -10px;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Portfólio Técnico – Denis Fernandes Martins</h1>
+  <p class="contato">
+    Nova Lima – MG | denisfmartins1976@gmail.com | (31) 99327-5802<br>
+    <a href="https://www.linkedin.com/in/denis-fernandes-martins" target="_blank">LinkedIn</a>
+  </p>
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+  <p>Sou Engenheiro Civil com mais de 23 anos de experiência em projetos multidisciplinares, especialmente nos setores de mineração e infraestrutura. Apresento a seguir alguns dos principais projetos em que atuei, com foco em resultados, escopo técnico e tecnologias empregadas.</p>
 
-# GitHub Pages
+  <div class="projeto">
+    <h2>Projeto Barão Norte – VALE (Pará)</h2>
+    <p><strong>Escopo:</strong> Coordenação técnica de projetos FEL 2/FEL 3 nas disciplinas de civil, arquitetura e infraestrutura.</p>
+    <p><strong>Responsabilidades:</strong> Revisão de documentos técnicos, elaboração de critérios de projeto, planos de carga estrutural e integração com áreas multidisciplinares.</p>
+    <p><strong>Ferramentas:</strong> AutoCAD, MS Project, Excel Avançado</p>
+    <p><strong>Resultados:</strong> Cumprimento do cronograma e padrões técnicos exigidos pela diretoria de engenharia. Aderência total às normas internas da VALE.</p>
+  </div>
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+  <div class="projeto">
+    <h2>Projeto Alemão – VALE (Pará)</h2>
+    <p><strong>Escopo:</strong> Análise técnica de viabilidade, revisão de memoriais descritivos e quantitativos em fase conceitual.</p>
+    <p><strong>Responsabilidades:</strong> Interlocução com áreas de processo, definição de premissas de engenharia, e elaboração de especificações técnicas para contratação.</p>
+    <p><strong>Ferramentas:</strong> MS Project, AutoCAD, Word</p>
+    <p><strong>Resultados:</strong> Redução de 15% no CAPEX ao identificar superdimensionamentos estruturais em edificações previstas.</p>
+  </div>
 
-</header>
+  <div class="projeto">
+    <h2>Projeto Bacaba – VALE (Pará)</h2>
+    <p><strong>Escopo:</strong> Estudos de trade-off, análise técnica e recomendações para decisões de escopo.</p>
+    <p><strong>Responsabilidades:</strong> Condução de reuniões técnicas com stakeholders, elaboração de pareceres técnicos e relatórios de viabilidade.</p>
+    <p><strong>Ferramentas:</strong> Excel, PowerPoint, AutoCAD</p>
+    <p><strong>Resultados:</strong> Alinhamento das soluções propostas com os critérios de segurança e desempenho operacional da empresa.</p>
+  </div>
 
-<!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
--->
+  <div class="projeto">
+    <h2>Filtragem CDS – Anglo Gold Ashanti</h2>
+    <p><strong>Escopo:</strong> Adequação de sistemas de filtragem em unidade de beneficiamento.</p>
+    <p><strong>Responsabilidades:</strong> Compatibilização de disciplinas, análise de propostas, controle de cronograma e orçamentos.</p>
+    <p><strong>Ferramentas:</strong> MS Project, SAP PM</p>
+    <p><strong>Resultados:</strong> Entrega do projeto conforme escopo e prazo, com melhorias operacionais nos processos de filtragem.</p>
+  </div>
 
-## Step 1: Enable GitHub Pages
+  <div class="projeto">
+    <h2>Unidade Rondonópolis – Mosaic Fertilizantes</h2>
+    <p><strong>Escopo:</strong> Projetos executivos e construção de novos silos para armazenagem.</p>
+    <p><strong>Responsabilidades:</strong> Coordenação entre projetistas e empreiteiras, acompanhamento da execução em campo.</p>
+    <p><strong>Ferramentas:</strong> AutoCAD, MS Project</p>
+    <p><strong>Resultados:</strong> Obra entregue conforme projeto, com ganhos de eficiência logística.</p>
+  </div>
 
-_Welcome to GitHub Pages and Jekyll :tada:!_
-
-The first step is to enable GitHub Pages on this [repository](https://docs.github.com/en/get-started/quickstart/github-glossary#repository). When you enable GitHub Pages on a repository, GitHub takes the content that's on the main branch and publishes a website based on its contents.
-
-### :keyboard: Activity: Enable GitHub Pages
-
-1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
-1. Under your repository name, click **Settings**.
-1. Click **Pages** in the **Code and automation** section.
-1. Ensure "Deploy from a branch" is selected from the **Source** drop-down menu, and then select `main` from the **Branch** drop-down menu.
-1. Click the **Save** button.
-1. Wait about _one minute_ then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
-   > Turning on GitHub Pages creates a deployment of your repository. GitHub Actions may take up to a minute to respond while waiting for the deployment. Future steps will be about 20 seconds; this step is slower.
-   > **Note**: In the **Pages** of **Settings**, the **Visit site** button will appear at the top. Click the button to see your GitHub Pages site.
-
-<footer>
-
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
-
----
-
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
-</footer>
+</body>
+</html>
